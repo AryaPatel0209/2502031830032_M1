@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Part 1.css" />
+    <title>Document</title>
+    <style>
+      .internal {
+        background-color: rgb(33, 33, 172);
+      }
+
+      .selector p,
+      h1,
+      h4 {
+        background-color: aqua;
+        font-family: "Times New Roman";
+        /* font-size: medium; */
+      }
+      .selector p {
+        text-decoration: line-through;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      .box {
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- _______________________________Inline CSS______________________________________ -->
+    <div>
+      <p style="background-color: brown">My Inline css</p>
+    </div>
+    <!-- _______________________________Internal CSS______________________________________ -->
+    <div class="internal">
+      <h3>My Internal css</h3>
+    </div>
+    <!-- _______________________________External CSS__________________________________________________  -->
+    <div class="external">
+      <h1>My External Css</h1>
+    </div>
+
+    <!-- _______________________________Multiple sectors__________________________________________________  -->
+
+    <div class="selector">
+      <p>First Selector</p>
+      <h4>Second Selector</h4>
+      <h1>third Selector</h1>
+    </div>
+
+    <div class="box"></div>
+  </body>
+</html>
