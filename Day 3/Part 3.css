@@ -1,0 +1,51 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5);
+    grid-template-rows: repeat(5, 80px);
+    gap: 8px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 8px;
+}
+ 
+.parent div {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+ 
+.div1 {
+    grid-column: span 5;
+}
+ 
+.div5 {
+    grid-column: span 4;
+    grid-row: 2 / span 3;
+}
+ 
+.div6 {
+    grid-column: 5;
+    grid-row: 2;
+}
+ 
+.div7 {
+    grid-column: 5;
+    grid-row: 3;
+}
+ 
+.div8 {
+    grid-column: 5;
+    grid-row: 4;
+}
+ 
+.div9 {
+    grid-column: span 5;
+    grid-row: 5;
+}
