@@ -9,3 +9,7 @@ let x = a + y * z / y - a ;
 
 document.getElementById("demo").innerHTML = "sum of a + y * z / y - a = " + x;
 // document.getElementById("demo").innerHTML = "sum of a * x = " + b;
+
+let h = true;
+
+console.log(typeof h)
