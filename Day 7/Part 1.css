@@ -1,0 +1,17 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px !important;
+}
+
+.back{
+    background-size: cover;
+}
+
+
+
